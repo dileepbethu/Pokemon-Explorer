@@ -1,0 +1,29 @@
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 20px auto;
+    flex-wrap: wrap;
+  }
+  
+  .search-input,
+  .type-select {
+    padding: 100px;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+    outline: none;
+  }
+  
+  .search-input {
+    width: 200px;
+    background-color: #e0ffe0;
+    color: #343d38;
+  }
+  
+  .type-select {
+    background-color: #d0f0d0;
+    color: #070606;
+  }
+  
